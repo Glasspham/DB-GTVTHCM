@@ -1,4 +1,7 @@
 # Cơ sở dữ liệu
+| SQL | MYSQL |
+|----------|----------|
+|<img src="https://github.com/devicons/devicon/blob/master/icons/azuresqldatabase/azuresqldatabase-original.svg" title="SQL"  alt="SQL" width="55" height="55"/>| <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="55" height="55"/>|
 
 ## Mô tả của Repository
 
