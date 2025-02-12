@@ -1,5 +1,5 @@
 # Cơ sở dữ liệu
-| SQL | MYSQL | SQL SERVER | REDIS | POSTGRE SQL |
+| SQL | MYSQL | SERVER | REDIS | POSTGRE |
 |----------|----------|----------|----------|----------|
 |<img src="https://github.com/devicons/devicon/blob/master/icons/azuresqldatabase/azuresqldatabase-original.svg" title="SQL"  alt="SQL" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" alt="MySQL" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/microsoftsqlserver/microsoftsqlserver-original.svg" title="MySQL" alt="MySQL" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/redis/redis-original-wordmark.svg" title="MySQL" alt="MySQL" width="55" height="55"/>|<img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-plain-wordmark.svg" title="MySQL" alt="MySQL" width="55" height="55"/>| 
 
