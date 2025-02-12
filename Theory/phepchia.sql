@@ -1,0 +1,29 @@
+CREATE DATABASE PHEPCHIA;
+USE PHEPCHIA;
+
+CREATE TABLE R(
+    A INT NOT NULL,
+    B INT NOT NULL
+);
+
+INSERT INTO R VALUES
+(5, 1), (5, 2), (5, 3), (7, 1), (7, 2), (8, 1), (9, 2);
+
+CREATE TABLE S(
+    B INT NOT NULL
+);
+
+INSERT INTO S VALUES
+(1), (2), (3);
+
+SELECT DISTINCT A
+FROM R X
+WHERE NOT EXISTS ( 
+    SELECT *
+    FROM S
+    WHERE B NOT IN (
+        SELECT B
+        FROM R
+        WHERE X.A = A
+    )
+);
