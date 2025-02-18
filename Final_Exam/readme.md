@@ -1,8 +1,11 @@
 # Question.1:
 
 Database 01 - Student Management Database:
+
 Query : The list of subjects that student ID = 'T01' has not yet taken.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -61,8 +64,11 @@ d. Drop Table `Product`
 # Question.3:
 
 Database 01 - Student Management Database:
+
 Query : List the `GPA` (Grade Point Average) of each Subject.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -97,8 +103,11 @@ GROUP BY StudentID;
 # Question.4:
 
 Database 02 - Retail Invoice Database.
+
 Query : Calculate the `Cost` of each invoice.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -140,17 +149,25 @@ GROUP BY B.ProductID;
 # Question.5:
 
 Query : To remove duplicate result values on SELECT clause we use keyword.
+
 Which SQL below ?
+
 a. UNIQUE
+
 b. ONLY
+
 c. DISTINCT
+
 d. SINGLE
 
 # Question.6:
 
 Database 01 - Student Management Database.
+
 Query : Classes with number of students > 50.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -186,26 +203,37 @@ GROUP BY ClassID;
 
 # Question.7:
 
-Which SQL is used for insert data
+Which SQL is used for insert data:
+
 a. INSERT INTO
+
 b. ADD
+
 c. MAKE
+
 d. CREATE
 
 # Question.8:
 
 Which of the following functions are built-in functions in SQL.
+
 a. COUNT, SUM, AVG, MAX, MIN
+
 b. SUM, AVG, MULT, DIV, MIN
+
 c. SUM, AVG, MIN, MAX, NAME
+
 d. SUM, AVG, MIN, MAX, MULT
 
 # Question.9:
 
 Which of the following commands create an index.
 a. Create Index ID
+
 b. Remove Index ID
+
 c. Add Index ID
+
 d. Change Index ID
 
 # Question.10:
@@ -220,16 +248,23 @@ GROUP BY ProductID
 ```
 
 Which result below ?
-a. Sum of Quantity for all Product
-b. Sum of Quantity for each WareHouse
-c. Sum of Quantity for each Product
-d. Sum of Quantity for WareHouse
+
+a. Sum of Quantity for all Product.
+
+b. Sum of Quantity for each WareHouse.
+
+c. Sum of Quantity for each Product.
+
+d. Sum of Quantity for WareHouse.
 
 # Question.11:
 
 Database 03 - Ware House Management Database.
+
 Query : List of Warehouses allowed to store Category with ID = 'C01'.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -265,8 +300,11 @@ WHERE CategoryID = 'C01';
 # Question.12:
 
 Database 01 - Student Management Database:
+
 Query : Subjects with Credit > 2.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -301,6 +339,7 @@ WHERE Credit > 2;
 # Question.13:
 
 Database 03 - Ware House Management Database.
+
 SQL:
 
 ```sh
@@ -310,16 +349,23 @@ WHERE WareHouseID = 'W01';
 ```
 
 Which result below ?
+
 a. List of Product are currently contained in the Warehouse ID = 'W01'.
+
 b. List of Product are currently contained in the Warehouse.
+
 c. List of Category are contained in the Warehouse ID = 'W01'.
+
 d. List of Product are can be store in the Warehouse ID = 'W01'.
 
 # Question.14:
 
 Database 01 - Student Management Database:
+
 Query : List the `GPA` (Grade Point Average) of each student.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -346,7 +392,9 @@ FROM StudentGrades;
 # Question.15:
 
 Database 02 - Retail Invoice Database.
-Query : Total value of invoices in each quarter of 2023
+
+Query : Total value of invoices in each quarter of 2023.
+
 Which SQL below ?
 a.
 
@@ -394,8 +442,11 @@ GROUP BY Date_part('Quarter', InvoiceDate);
 # Question.16:
 
 Database 02 - Retail Invoice Database.
-Query : Total value of invoices in each month of 2023
+
+Query : Total value of invoices in each month of 2023.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -441,16 +492,23 @@ AND B.ProductID = C.ProductID;
 # Question.17:
 
 The result of a SELECT sentence is:
+
 a. Table
+
 b. Report
+
 c. File
+
 d. Form
 
 # Question.18:
 
 Database 01 - Student Management Database.
+
 Query : Students had the largest GPA (Grade Point Average) .
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -509,8 +567,11 @@ WHERE AvgG = Max (
 # Question.19:
 
 Database 01 - Student Management Database:
+
 Query : List the `weighted average` Grades of each student.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -549,8 +610,11 @@ GROUP BY StudentID;
 # Question.20:
 
 Database 02 - Retail Invoice Database.
+
 Query : Calculate the Cost of each invoice on year = 2023.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -593,17 +657,24 @@ GROUP BY A.InvoiceID
 
 # Question.21:
 
-Where clause in SQL is used for
+Where clause in SQL is used for.
+
 a. Filter data rows
+
 b. Do not use for data filtering
+
 c. Filter both data columns data rows
+
 d. Filter data columns
 
 # Question.22:
 
 Database 01 - Student Management Database.
-Query: The list of Students are belong to Class year='2020-2024'
+
+Query: The list of Students are belong to Class year='2020-2024'.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -641,8 +712,11 @@ WHERE ClassYear = '2020-2024';
 # Question.23:
 
 Database 01 - Student Management Database.
+
 Query : Classes had the largest students.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -685,9 +759,13 @@ HAVING Count(*) >= All (
 # Question.24:
 
 Which arrangement is correct for the following three statements:
+
 a. FROM, WHERE, SELECT
+
 b. WHERE, FROM, SELECT
+
 c. SELECT, WHERE, FROM
+
 d. SELECT, FROM, WHERE
 
 # Question.25:
@@ -700,9 +778,12 @@ d. ALIGN BY
 
 # Question.26:
 
-Database 02 - Retail Invoice Database
+Database 02 - Retail Invoice Database.
+
 Query: Products are not sold on D date.
+
 Which SQL below?
+
 a.
 
 ```sh
@@ -759,15 +840,20 @@ WHERE ProductID Not In (
 
 # Question.27:
 
-Which SQL is used for delete data of the Product relation
+Which SQL is used for delete data of the Product relation.
+
 a. UPDATE FROM `Product` ...
+
 b. DELETE FROM `Product` ...
+
 c. DROP FROM `Product` ...
+
 d. REMOVE FROM `Product` ...
 
 # Question.28:
 
 Database 03 - Ware House Management Database.
+
 SQL:
 
 ```sh
@@ -785,8 +871,11 @@ d. Sum of `Quantity` for each `Product`
 # Question.29:
 
 Database 03 - Ware House Management Database.
+
 Query : List of Products belong to Category with ID = 'C01'.
+
 Which SQL below ?
+
 a.
 
 ```sh
@@ -822,8 +911,11 @@ WHERE CategoryID = 'C01'
 # Question.30:
 
 Database 01 - Student Management Database.
+
 Query: The list of Students are belong to Class ID='C01'.
+
 Which SQL below ?
+
 a.
 
 ```sh
